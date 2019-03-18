@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-03-18 16:56:02,2019-03-18 16:56:14,11.837s,PASSED
+,,,,,,
+Test Cases/TestHTTPMethods,,,2019-03-18 16:56:02,2019-03-18 16:56:11,8.381s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestSevice/Listusers""))",,,2019-03-18 16:56:03,2019-03-18 16:56:08,4.723s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestSevice/Updateusers""))",,,2019-03-18 16:56:08,2019-03-18 16:56:09,0.990s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestSevice/CreateUser""))",,,2019-03-18 16:56:09,2019-03-18 16:56:10,1.343s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestSevice/DeleteUser""))",,,2019-03-18 16:56:10,2019-03-18 16:56:11,0.789s,PASSED
+,,,,,,
+Test Cases/ListusersTest,,List users,2019-03-18 16:56:11,2019-03-18 16:56:14,2.854s,PASSED
+"sendRequest(findTestObject(""UserRestSevice/Listusers""))",,,2019-03-18 16:56:11,2019-03-18 16:56:13,1.578s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestSevice/Listusers""))",,,2019-03-18 16:56:13,2019-03-18 16:56:14,0.858s,PASSED
+"verifyElementPropertyValue(response, ""total"", ""12"")",,,2019-03-18 16:56:14,2019-03-18 16:56:14,0.037s,PASSED
+"verifyElementsCount(response, ""data"", 3)",,,2019-03-18 16:56:14,2019-03-18 16:56:14,0.025s,PASSED
+"verifyResponseStatusCodeInRange(response, 100, 200)",,,2019-03-18 16:56:14,2019-03-18 16:56:14,0.008s,PASSED

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="17" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="17" timestamp="2019-03-18 16:39:42" hostname="PK19 - DESKTOP-4T9EF5T.wks.jnj.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\PK19\\Katalon Studio\\OneDrive_2019-03-18\\API Demo Project 1\\Reports\\New Test Suite\\20190318_163921"/>
+         <property name="logFiles" value="D:\\Users\\PK19\\Katalon Studio\\OneDrive_2019-03-18\\API Demo Project 1\\Reports\\New Test Suite\\20190318_163921\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PK19 - DESKTOP-4T9EF5T.wks.jnj.com"/>
+         <property name="hostAddress" value="10.220.166.35"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+      </properties>
+      <testcase name="Test Cases/TestHTTPMethods" classname="Test Cases/TestHTTPMethods" status="PASSED">
+         <system-out><![CDATA[2019-03-18 16:39:43 - [TEST_CASE][PASSED] - Test Cases/TestHTTPMethods: Test Cases/TestHTTPMethods
+
+2019-03-18 16:39:43 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestSevice/Listusers")): Send request and verify the response successfully
+
+2019-03-18 16:39:48 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 16:39:49 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 16:39:49 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 16:39:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-18 16:39:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 16:39:49 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-18 16:39:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-18 16:39:49 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 16:39:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "total", "12"): Verify element property value successfully
+
+2019-03-18 16:39:49 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 16:39:49 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 16:39:49 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 16:39:50 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestSevice/Updateusers")): Send request and verify the response successfully
+
+2019-03-18 16:39:50 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 16:39:50 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 16:39:50 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 16:39:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-18 16:39:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 16:39:51 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-18 16:39:51 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 16:39:51 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 16:39:51 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestSevice/CreateUser")): Send request and verify the response successfully
+
+2019-03-18 16:39:51 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 16:39:52 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 16:39:52 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 16:39:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-03-18 16:39:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 16:39:52 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2019-03-18 16:39:52 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 16:39:52 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 16:39:52 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestSevice/DeleteUser")): Send request and verify the response successfully
+
+2019-03-18 16:39:52 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 16:39:53 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 16:39:53 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 16:39:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2019-03-18 16:39:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 16:39:53 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2019-03-18 16:39:53 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 16:39:53 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListusersTest" classname="Test Cases/ListusersTest" status="PASSED">
+         <system-out><![CDATA[2019-03-18 16:39:53 - [TEST_CASE][PASSED] - Test Cases/ListusersTest: Test Cases/ListusersTest
+
+2019-03-18 16:39:53 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestSevice/Listusers")): Send request successfully
+
+2019-03-18 16:39:58 - [MESSAGE][INFO] - HAR: D:\Users\PK19\Katalon Studio\OneDrive_2019-03-18\API Demo Project 1\Reports\New Test Suite\20190318_163921\requests\main\0.har
+
+2019-03-18 16:39:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-18 16:39:58 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("UserRestSevice/Listusers")): Send request and verify the response successfully
+
+2019-03-18 16:39:59 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-18 16:39:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-18 16:39:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "total", "12"): Verify element property value successfully
+
+2019-03-18 16:39:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 16:39:59 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 16:39:59 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "total", "12"): Verify element property value successfully
+
+2019-03-18 16:39:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data", 3): Verify element count successfully
+
+2019-03-18 16:39:59 - [MESSAGE][PASSED] - Verify element count successfully
+
+2019-03-18 16:39:59 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange(response, 100, 200): Verify response status code successfully
+
+2019-03-18 16:39:59 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-18 16:39:42 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/ListusersTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

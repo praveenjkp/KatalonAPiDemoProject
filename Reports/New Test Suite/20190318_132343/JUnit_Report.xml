@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="13" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="1" errors="0" time="13" timestamp="2019-03-18 13:23:46" hostname="pk18 - LIN36000888.corp.capgemini.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pk18\\Katalon Studio\\API Demo Project 1\\Reports\\New Test Suite\\20190318_132343"/>
+         <property name="logFiles" value="C:\\Users\\pk18\\Katalon Studio\\API Demo Project 1\\Reports\\New Test Suite\\20190318_132343\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pk18 - LIN36000888.corp.capgemini.com"/>
+         <property name="hostAddress" value="10.77.17.106"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TestHTTPMethods" classname="Test Cases/TestHTTPMethods" status="PASSED">
+         <system-out><![CDATA[2019-03-18 13:23:47 - [TEST_CASE][PASSED] - Test Cases/TestHTTPMethods: Test Cases/TestHTTPMethods
+
+2019-03-18 13:23:47 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestSevice/Listusers")): Send request and verify the response successfully
+
+2019-03-18 13:23:53 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 13:23:53 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 13:23:53 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 13:23:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-18 13:23:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 13:23:53 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-18 13:23:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-18 13:23:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 13:23:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "total", "12"): Verify element property value successfully
+
+2019-03-18 13:23:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 13:23:54 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 13:23:54 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 13:23:54 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestSevice/Updateusers")): Send request and verify the response successfully
+
+2019-03-18 13:23:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 13:23:55 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 13:23:55 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 13:23:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-18 13:23:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 13:23:55 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-18 13:23:55 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 13:23:55 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 13:23:55 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestSevice/CreateUser")): Send request and verify the response successfully
+
+2019-03-18 13:23:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 13:23:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 13:23:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 13:23:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-03-18 13:23:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 13:23:56 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2019-03-18 13:23:56 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 13:23:56 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 13:23:56 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestSevice/DeleteUser")): Send request and verify the response successfully
+
+2019-03-18 13:23:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 13:23:57 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 13:23:57 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 13:23:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2019-03-18 13:23:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 13:23:57 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2019-03-18 13:23:57 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 13:23:57 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListusersTest" classname="Test Cases/ListusersTest" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ListusersTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected elements count 2 is not equal with actual count 3
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.doCall(VerifyElementsCountKeyword.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.call(VerifyElementsCountKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.verifyElementsCount(VerifyElementsCountKeyword.groovy:45)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.execute(VerifyElementsCountKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementsCount(WSBuiltInKeywords.groovy:94)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementsCount$3.call(Unknown Source)
+	at ListusersTest.run(ListusersTest:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552895623693.run(TempTestSuite1552895623693.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-18 13:23:57 - [TEST_CASE][FAILED] - Test Cases/ListusersTest: Test Cases/ListusersTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected elements count 2 is not equal with actual count 3
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.doCall(VerifyElementsCountKeyword.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.call(VerifyElementsCountKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.verifyElementsCount(VerifyElementsCountKeyword.groovy:45)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.execute(VerifyElementsCountKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementsCount(WSBuiltInKeywords.groovy:94)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementsCount$3.call(Unknown Source)
+	at ListusersTest.run(ListusersTest:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552895623693.run(TempTestSuite1552895623693.groovy:36)
+
+
+2019-03-18 13:23:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestSevice/Listusers")): Send request successfully
+
+2019-03-18 13:23:59 - [MESSAGE][INFO] - HAR: C:\Users\pk18\Katalon Studio\API Demo Project 1\Reports\New Test Suite\20190318_132343\requests\main\0.har
+
+2019-03-18 13:23:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-18 13:23:59 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("UserRestSevice/Listusers")): Send request and verify the response successfully
+
+2019-03-18 13:24:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 13:24:00 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 13:24:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 13:24:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-18 13:24:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 13:24:00 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-18 13:24:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-18 13:24:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 13:24:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "total", "12"): Verify element property value successfully
+
+2019-03-18 13:24:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 13:24:00 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 13:24:00 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 13:24:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "total", "12"): Verify element property value successfully
+
+2019-03-18 13:24:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 13:24:00 - [TEST_STEP][FAILED] - verifyElementsCount(response, "data", 2): Expected elements count 2 is not equal with actual count 3
+
+2019-03-18 13:24:00 - [MESSAGE][FAILED] - Expected elements count 2 is not equal with actual count 3
+
+2019-03-18 13:24:00 - [TEST_STEP][FAILED] - verifyResponseStatusCodeInRange(response, 100, 200): verifyResponseStatusCodeInRange(response, 100, 200) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected elements count 2 is not equal with actual count 3
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.doCall(VerifyElementsCountKeyword.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.call(VerifyElementsCountKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.verifyElementsCount(VerifyElementsCountKeyword.groovy:45)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.execute(VerifyElementsCountKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementsCount(WSBuiltInKeywords.groovy:94)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementsCount$3.call(Unknown Source)
+	at ListusersTest.run(ListusersTest:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552895623693.run(TempTestSuite1552895623693.groovy:36)
+
+
+2019-03-18 13:24:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-18 13:24:00 - [MESSAGE][FAILED] - verifyResponseStatusCodeInRange(response, 100, 200) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected elements count 2 is not equal with actual count 3
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.doCall(VerifyElementsCountKeyword.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.call(VerifyElementsCountKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.verifyElementsCount(VerifyElementsCountKeyword.groovy:45)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.execute(VerifyElementsCountKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementsCount(WSBuiltInKeywords.groovy:94)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementsCount$3.call(Unknown Source)
+	at ListusersTest.run(ListusersTest:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552895623693.run(TempTestSuite1552895623693.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-18 13:23:57 - [TEST_CASE][FAILED] - Test Cases/ListusersTest: Test Cases/ListusersTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected elements count 2 is not equal with actual count 3
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.doCall(VerifyElementsCountKeyword.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.call(VerifyElementsCountKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.verifyElementsCount(VerifyElementsCountKeyword.groovy:45)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.execute(VerifyElementsCountKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementsCount(WSBuiltInKeywords.groovy:94)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementsCount$3.call(Unknown Source)
+	at ListusersTest.run(ListusersTest:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552895623693.run(TempTestSuite1552895623693.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-18 13:23:46 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/ListusersTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected elements count 2 is not equal with actual count 3
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.doCall(VerifyElementsCountKeyword.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.call(VerifyElementsCountKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.verifyElementsCount(VerifyElementsCountKeyword.groovy:45)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.execute(VerifyElementsCountKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementsCount(WSBuiltInKeywords.groovy:94)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementsCount$3.call(Unknown Source)
+	at ListusersTest.run(ListusersTest:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552895623693.run(TempTestSuite1552895623693.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-18 13:23:46 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/ListusersTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected elements count 2 is not equal with actual count 3
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.doCall(VerifyElementsCountKeyword.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword$_verifyElementsCount_closure1.call(VerifyElementsCountKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.verifyElementsCount(VerifyElementsCountKeyword.groovy:45)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementsCountKeyword.execute(VerifyElementsCountKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementsCount(WSBuiltInKeywords.groovy:94)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementsCount$3.call(Unknown Source)
+	at ListusersTest.run(ListusersTest:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552895623693.run(TempTestSuite1552895623693.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
